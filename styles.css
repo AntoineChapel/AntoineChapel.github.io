@@ -104,5 +104,9 @@ a:hover {
     display: block;
     transition: 0.3s;
   }
+
+  table, th, td {
+    border:1px solid black;
+  }
   
   /* Page content */

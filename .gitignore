@@ -1,0 +1,5 @@
+
+# ignore local-only stuff
+.vscode/
+*.pem
+AntoineChapel.github.io/

@@ -26,9 +26,7 @@
             src = "NGM_comparison.PNG"
             alt="NGM_comparison"
             width = "400"
-            height = "350" 
-            style="margin: 2px 2px 2px 2px;">
-
+            height = "350" />
             
         <img 
             src = "DQN_learning_process.png"
@@ -38,42 +36,7 @@
         
 
         <li> The <a href="https://github.com/AntoineChapel/vfi_project/tree/main" target="_blank">VFI project</a>: coding the Value Function Iteration algorithm in multiple languages </li>
-        <p> 
-            Note: vfi.ipynb is an implementation of Value Function Iteration in Google JAX. Executed on COLAB with T4 GPU yields impressive speed gain in large-dimensional problems.
-            The results of this simulation, run on Google Colab are as follows.
-            <table>
-                <tr>
-                  <th>Hardware x Dimensionality</th>
-                  <th>Pure Numpy</th>
-                  <th>Pure JAX</th>
-                  <th>Numpy with compiled JAX function</th>
-                </tr>
-                <tr>
-                  <td>CPU, N=50</td>
-                  <td>76.7ms</td>
-                  <td>18.4ms</td>
-                  <td>46.8ms</td>
-                </tr>
-                <tr>
-                    <td>CPU, N=5000</td>
-                    <td>1min56s</td>
-                    <td>30.4s</td>
-                    <td>26.8s</td>
-                </tr>
-                <tr>
-                    <td>GPU, N=50</td>
-                    <td>169ms</td>
-                    <td>135ms</td>
-                    <td>219ms</td>
-                </tr>
-                <tr>
-                    <td>GPU, N=5000 </td>
-                    <td>1min20s</td>
-                    <td>274ms</td>
-                    <td>326ms</td>
-                </tr>
-              </table>
-        </p>
+        <p> Note: vfi.ipynb is an implementation of Value Function Iteration in Google JAX. Executed on COLAB with GPU yields impressive speed gain. </p>
 
     </ul>
 <br>

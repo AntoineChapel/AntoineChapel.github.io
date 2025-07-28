@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 
 # ignore local-only stuff
 .vscode/
 *.pem
 AntoineChapel.github.io/
+=======
+choupi.pem
+>>>>>>> 4c3f28a (synchronize mac)

@@ -1,81 +1,122 @@
 <!doctype html>
-
-<html>
+<html lang="en">
     <head>
-        <link rel="stylesheet" type="text/css" href="styles.css" />
-
-        <title>Coding Projects</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Notes and Code | Antoine Chapel</title>
     </head>
     <body>
-        <div id="mySidenav" class="sidenav">
-            <a href="https://antoinechapel.github.io">Home</a>
-            <a
-                href="https://drive.google.com/file/d/10oidDv9I87BEBoJbBUXHDS57_ajwTyDV/view?usp=drive_link"
-                target="_blank"
-                >C.V.</a
-            >
-            <a href="codes.html">Codes</a>
-            <a href="teaching.html">Teaching</a>
-        </div>
-
-        <h1>Bayesian Methods: A Journey</h1>
-
-        <h4>
-            <ul>
-                <li>
-                    <a href="BayesSeries/Bayes_Ep1.html" target="_blank">
-                        Episode 1 -- Mean of Binary Data
-                    </a>
-                </li>
-            </ul>
-            <br />
-        </h4>
-
-        <h1>Older Coding Projects</h1>
-
-        <h4>
-            <ul>
-                <li>
+        <header class="site-header">
+            <nav class="site-nav" aria-label="Main navigation">
+                <a class="site-logo" href="index.html">Antoine Chapel</a>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="research.html">Research</a>
+                    <a href="codes.html" aria-current="page">Notes and Code</a>
+                    <a href="teaching.html">Teaching</a>
                     <a
-                        href="https://github.com/AntoineChapel/Meta_application_NGMRL/tree/main"
+                        href="https://drive.google.com/file/d/1t7Wv-UCrZB1LgOBBkJATxjp3BC9c9u4_/view?usp=sharing"
                         target="_blank"
+                        rel="noopener"
+                        >CV</a
                     >
-                        NGMRL
-                    </a>
-                    : Solving the Neoclassical Growth Model with Reinforcement
-                    Learning
-                </li>
+                </div>
+            </nav>
+        </header>
 
-                <img
-                    src="NGM_comparison.PNG"
-                    alt="NGM_comparison"
-                    width="400"
-                    height="350"
-                />
-
-                <img
-                    src="DQN_learning_process.png"
-                    alt="DQN_learning"
-                    width="750"
-                    height="350"
-                />
-
-                <li>
-                    The
-                    <a
-                        href="https://github.com/AntoineChapel/vfi_project/tree/main"
-                        target="_blank"
-                        >VFI project</a
-                    >: coding the Value Function Iteration algorithm in multiple
-                    languages
-                </li>
+        <main class="page-shell">
+            <div class="page-title">
+                <p class="eyebrow">Notes and Code</p>
+                <h1>Computational Economics and Learning Notes</h1>
                 <p>
-                    Note: vfi.ipynb is an implementation of Value Function
-                    Iteration in Google JAX. Executed on COLAB with GPU yields
-                    impressive speed gain.
+                    Selected notebooks, lecture notes, and coding projects in
+                    Bayesian methods, reinforcement learning, and numerical
+                    economics.
                 </p>
-            </ul>
-            <br />
-        </h4>
+            </div>
+
+            <section class="section">
+                <div class="section-heading">
+                    <h2>Bayesian Methods: A Journey</h2>
+                    <span class="section-kicker">Series</span>
+                </div>
+                <div class="resource-grid">
+                    <a
+                        class="resource-card"
+                        href="BayesSeries/Bayes_Ep1.html"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Episode 1 - Mean of Binary Data
+                        <span>Interactive HTML note</span>
+                    </a>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="section-heading">
+                    <h2>Older Coding Projects</h2>
+                    <span class="section-kicker">Archive</span>
+                </div>
+
+                <article class="project-card">
+                    <div class="project-card-body">
+                        <h3>
+                            <a
+                                href="https://github.com/AntoineChapel/Meta_application_NGMRL/tree/main"
+                                target="_blank"
+                                rel="noopener"
+                                >NGMRL</a
+                            >
+                        </h3>
+                        <p>
+                            Solving the neoclassical growth model with
+                            reinforcement learning.
+                        </p>
+                    </div>
+                    <div class="project-media">
+                        <img
+                            src="NGM_comparison.PNG"
+                            alt="Comparison chart for the neoclassical growth model"
+                            width="531"
+                            height="421"
+                        />
+                        <img
+                            src="DQN_learning_process.png"
+                            alt="DQN learning process chart"
+                            width="871"
+                            height="470"
+                        />
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card-body">
+                        <h3>
+                            <a
+                                href="https://github.com/AntoineChapel/vfi_project/tree/main"
+                                target="_blank"
+                                rel="noopener"
+                                >VFI Project</a
+                            >
+                        </h3>
+                        <p>
+                            Coding the value function iteration algorithm in
+                            multiple languages. The JAX implementation in
+                            <code>vfi.ipynb</code> was executed on Colab with a
+                            GPU and produced large speed gains.
+                        </p>
+                    </div>
+                </article>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-inner">
+                <span>Antoine Chapel</span>
+                <span>Economics, Columbia University</span>
+            </div>
+        </footer>
     </body>
 </html>

@@ -247,6 +247,22 @@ p {
     color: var(--muted);
 }
 
+.profile-links,
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.profile-links {
+    margin-top: 10px;
+}
+
+.profile-links a,
+.footer-links a {
+    font-weight: 700;
+}
+
 .tag-list {
     display: flex;
     flex-wrap: wrap;

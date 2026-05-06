@@ -4,6 +4,8 @@
 .vscode/
 *.pem
 AntoineChapel.github.io/
+.DS_Store
+.Rhistory
 =======
 choupi.pem
 >>>>>>> 4c3f28a (synchronize mac)
